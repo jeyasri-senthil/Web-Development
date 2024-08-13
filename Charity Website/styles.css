@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #333;
+    background-color: white;
+}
+
+header {
+    padding: 35px;
+    background: #f3e7cc;
+    color: #fff;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #817525;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#banner {
+    background-image: url(images/background.jpg);
+    color: #fff;
+    padding: 225px 20px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+#banner h1 {
+    font-size: 3em; 
+    margin-bottom: 20px;
+}
+
+#banner p {
+    font-size: 1.25em;
+    margin-bottom: 30px;
+}
+
+.cta {
+    text-decoration: none;
+    background-color: #f3e7cc;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta:hover {
+    color: #817525;
+    background-color: #ffffff;
+}
+
+#causes {
+    padding: 40px 20px;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#causes h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ad9a6d;
+}
+
+.cause {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.cause-icon {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.cause h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.cause p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 20px;
+    background:  #f3e7cc;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    color: black;
+}
+
+footer p a {
+    color: black;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 35px;
+    color: #ad9a6d;
+}
+
+#about p {
+    padding: 0px 150px;
+    text-align: center;
+}
+
+#join {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#join h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ad9a6d;
+}
+
+#join form {
+    display: inline-block;
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#join label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+#join input, #join textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#join button {
+    background-color: #f3e7cc;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#join button:hover {
+    background-color: #ffffff;
+    color: #817525;
+}
