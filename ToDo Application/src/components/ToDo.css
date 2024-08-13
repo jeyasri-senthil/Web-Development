@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+    color: black;
+    margin-bottom: 20px;
+    font-family: 'Acme';
+    font-size: 30px;
+}
+
+input[type='text'] {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 1px solid grey;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: #28a745;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 350px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.delete-button {
+    border: none;
+    cursor: pointer;
+    color: #dc3545;
+    font-size: 16px;
+    margin-right: 350px;
+    background: transparent;
+    background-color: #ccc;
+}
+
+.delete-button:hover {
+    color: white;
+    background-color: #dc3545;
+}
